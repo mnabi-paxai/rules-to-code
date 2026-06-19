@@ -1,4 +1,3 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,10 +21,8 @@
 
     .page {
       min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+      display: grid;
+      place-items: center;
       padding: 32px;
     }
 
@@ -138,39 +135,6 @@
       opacity: 0.45;
     }
 
-    .outside-info {
-      width: min(980px, 100%);
-      margin-top: 24px;
-      text-align: center;
-      font-size: 0.95rem;
-      line-height: 1.8;
-      font-weight: 300;
-    }
-
-    .team-members {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 6px 14px;
-    }
-
-    .outside-info a {
-      color: #000;
-      text-decoration: none;
-      border-bottom: 1px solid #000;
-      padding-bottom: 2px;
-      transition: opacity 160ms ease;
-    }
-
-    .outside-info a:hover {
-      opacity: 0.45;
-    }
-
-    .contact-link {
-      margin-top: 34px;
-    }
-
     @media (max-width: 640px) {
       .page {
         padding: 18px;
@@ -235,21 +199,6 @@
 
       </div>
     </section>
-
-    <div class="outside-info">
-      <div class="team-members">
-        <span>Team Members:</span>
-        <a href="MARZIEH_PAGE_LINK">Marzieh Nabi</a>
-        <a href="SAREH_PAGE_LINK">Sareh Nabi</a>
-        <a href="MIKE_PAGE_LINK">Mike Genesereth</a>
-        <a href="ROLAND_PAGE_LINK">Roland Vogl</a>
-      </div>
-
-      <div class="contact-link">
-        <a href="mnabi@stanford.edu">Contact Us</a>
-      </div>
-    </div>
   </main>
 </body>
 </html>
-```
